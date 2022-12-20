@@ -18,7 +18,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "*"
+        "illuminate/support": "*",
+        "pagseguro/php-pix": "^2.1"
     },
     "extra": {
         "laravel": {
