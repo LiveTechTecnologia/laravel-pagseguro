@@ -40,5 +40,20 @@ return [
     |
     */
     'notificationURL' => env('PAGSEGURO_NOTIFICATION', ''),
+    
+    /*
+    |--------------------------------------------------------------------------
+    | Payment Methods
+    |--------------------------------------------------------------------------
+    |
+    | Metódos de Pagamento do Pagseguro.
+    |
+    */
+    'methods' => [
+        'credit_card' => 'Cartão de crédito',
+        'debit_card' => 'Cartão de débito',
+        'boleto' => 'Boleto',
+        'pix' => 'PIX',
+    ],
 
 ];
