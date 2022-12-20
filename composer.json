@@ -19,7 +19,7 @@
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "*",
-        "pagseguro/php-pix": "^2.1"
+        "pagseguro/php-sdk-pix": "^1.0"
     },
     "extra": {
         "laravel": {
